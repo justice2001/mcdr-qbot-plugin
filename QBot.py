@@ -4,6 +4,14 @@ import json
 import websocket
 import os
 
+"""
+将指定的QQ群聊信息自动转发到MC服务器中, 让正在服务器的玩家能在不跳出服务器的情况下与QQ群聊中的各位一起划水
+此插件基于MCDReforged开发
+同时使用到了mirai(QQ机器人框架)
+以及mirai-api-http(机器人HTTP通讯插件)
+@author 正义桑
+"""
+
 PLUGIN_METADATA = {
     'id': 'qbot',
     'version': '1.0.0',
